@@ -26,7 +26,7 @@ class Register extends React.Component {
     
     return (
       <Segment basic>
-        <Header as='h1' textAlign='center'>Register</Header>
+        <Header as='h1' color="blue" textAlign='center'>Register</Header>
         <Form onSubmit={this.handleSubmit}>
           <Form.Input
             label="Email"
